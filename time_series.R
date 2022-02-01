@@ -1,7 +1,7 @@
 library(tseries)
 library(forecast)
 
-data <- read.table("~/Desktop/Time_series/Time-Series/finaltest.csv", header=T, sep=",")
+data <- read.table("~/Desktop/Time_series/Time-Series/data.csv", header=T, sep=",")
 head(data)
 class(data)
 
