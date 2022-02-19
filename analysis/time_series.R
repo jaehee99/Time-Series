@@ -1,7 +1,8 @@
 library(tseries)
 library(forecast)
+library(readr)
 
-data <- read.table("~/Desktop/Time_series/Time-Series/data.csv", header=T, sep=",")
+data <- read_csv("../data/data.csv")
 head(data)
 class(data)
 
