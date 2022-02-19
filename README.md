@@ -2,7 +2,7 @@
 ## Time series model analysis by Box-Jenkins
 1. Model Identification
 2. Parameter Estimation
-3. 모형 적합성 진단
+3. Diagnostic Checking
 4. Forecasting
 
 ## library 
