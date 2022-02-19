@@ -1,8 +1,11 @@
 # Time-Series
-## Box-Jenkins에 의한 시계열 모형 분석 순서
-- 모형의식별:시계열자료에 의하여 적합한 잠정적인 누적 자기회귀이동평균 모형(ARIMA model)을 찾아내는 단계
-- 모수추정: 최적의모수값을추정
-- 모형 적합성 진단: 여러가지 모형들 중에서, 어떤 모델이 가장 적합한지를 잔차 그래프로 검정함, 최종 모형 선정
-- 모형의확정및예측:3번단계에서 최종 선정한 모델을 이용해서 주어진 데이터의 미래값을 예측함
+## Time series model analysis by Box-Jenkins
+1. Model Identification
+2. Parameter Estimation
+3. 모형 적합성 진단
+4. Forecasting
 
-## Time Series plot including forecast 
+## library 
+- tseries
+- forecast
+
